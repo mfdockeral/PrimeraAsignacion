@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="PrimeraAsignacion.MainPage">
+    
+    <!-- Diseño de la página de bienvenida -->
+    <StackLayout>
+        <Label Text="Primera asignación" TextColor="DarkBlue" FontSize="Title" HorizontalOptions="CenterAndExpand" VerticalOptions="Start"/>
+        <Entry Placeholder ="Ingrese nombre y apellido"  x:Name="TxtNom" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+        <Button TextColor="White" BackgroundColor="Black" Text="Mostrar Datos" x:Name="btnMostrar" 
+                           Clicked="btnMostrar_Clicked" VerticalOptions="CenterAndExpand" 
+                           HorizontalOptions="CenterAndExpand"/>
+    </StackLayout>
+
+</ContentPage>
